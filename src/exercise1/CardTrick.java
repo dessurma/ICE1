@@ -60,7 +60,7 @@ public class CardTrick {
         System.out.println();
         
         System.out.println("I will become a web programmer:");
-        System.out.println("-- I want to use social media less");
+        System.out.println("-- Use less social media");
         System.out.println("-- This semester I have no violations of academic integrity!");
 	System.out.println();	
 
