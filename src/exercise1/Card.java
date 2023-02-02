@@ -18,12 +18,12 @@ public class Card {
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
 
     Card(int userValue, String userSuit) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        this.value = userValue;
+        this.suit = userSuit;
     }
 
-    Card() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+    Card() {}
+
     /**
      * @return the suit
      */
